@@ -84,4 +84,6 @@ public interface ItemService {
      * @return
      */
     String queryItemMainImgById(String itemId);
+
+    public void decreaseItemSpecStock(String itemSpecId, int buyCounts);
 }
